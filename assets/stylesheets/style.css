@@ -1,0 +1,36 @@
+h1 {
+  background-color: black;
+  color: white;
+}
+h2 {
+  background-color: red;
+  color: black;
+}
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+ul li::before {
+  content: "\2022";
+  color: gold;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  list-style-position: inside;
+  width: 1em;
+  margin-left: -1em;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: gold;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  color: blue;
+}
+
